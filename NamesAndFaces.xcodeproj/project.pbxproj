@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F7AEC951D2AB2BB00D0DAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AEC941D2AB2BB00D0DAF1 /* AppDelegate.swift */; };
-		8F7AEC971D2AB2BB00D0DAF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AEC961D2AB2BB00D0DAF1 /* ViewController.swift */; };
-		8F7AEC9A1D2AB2BB00D0DAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AEC981D2AB2BB00D0DAF1 /* Main.storyboard */; };
-		8F7AEC9C1D2AB2BB00D0DAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AEC9B1D2AB2BB00D0DAF1 /* Assets.xcassets */; };
-		8F7AEC9F1D2AB2BB00D0DAF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AEC9D1D2AB2BB00D0DAF1 /* LaunchScreen.storyboard */; };
+		8F7AECB41D2AB31000D0DAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AECA71D2AB31000D0DAF1 /* AppDelegate.swift */; };
+		8F7AECB51D2AB31000D0DAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AECA81D2AB31000D0DAF1 /* Assets.xcassets */; };
+		8F7AECB61D2AB31000D0DAF1 /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AECA91D2AB31000D0DAF1 /* FilterTableViewController.swift */; };
+		8F7AECB71D2AB31000D0DAF1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AECAA1D2AB31000D0DAF1 /* Info.plist */; };
+		8F7AECB81D2AB31000D0DAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AECAB1D2AB31000D0DAF1 /* Main.storyboard */; };
+		8F7AECB91D2AB31000D0DAF1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AECAC1D2AB31000D0DAF1 /* Person.swift */; };
+		8F7AECBA1D2AB31000D0DAF1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AECAD1D2AB31000D0DAF1 /* SearchViewController.swift */; };
+		8F7AECBB1D2AB31000D0DAF1 /* SecondFakeSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AECAE1D2AB31000D0DAF1 /* SecondFakeSearchViewController.swift */; };
+		8F7AECBC1D2AB31000D0DAF1 /* SingleViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AECAF1D2AB31000D0DAF1 /* SingleViewViewController.swift */; };
+		8F7AECBD1D2AB31000D0DAF1 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AECB01D2AB31000D0DAF1 /* TermsViewController.swift */; };
+		8F7AECBE1D2AB31000D0DAF1 /* TitleScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AECB11D2AB31000D0DAF1 /* TitleScreenViewController.swift */; };
+		8F7AECBF1D2AB31000D0DAF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AECB21D2AB31000D0DAF1 /* ViewController.swift */; };
+		8F7AECC01D2AB31000D0DAF1 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AECB31D2AB31000D0DAF1 /* Base.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F7AEC911D2AB2BB00D0DAF1 /* NamesAndFaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NamesAndFaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F7AEC941D2AB2BB00D0DAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F7AEC961D2AB2BB00D0DAF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8F7AEC991D2AB2BB00D0DAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F7AEC9B1D2AB2BB00D0DAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8F7AEC9E1D2AB2BB00D0DAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8F7AECA01D2AB2BB00D0DAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F7AECA61D2AB31000D0DAF1 /* NamesAndFaces-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NamesAndFaces-Bridging-Header.h"; sourceTree = "<group>"; };
+		8F7AECA71D2AB31000D0DAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = NamesAndFaces/AppDelegate.swift; sourceTree = "<group>"; };
+		8F7AECA81D2AB31000D0DAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = NamesAndFaces/Assets.xcassets; sourceTree = "<group>"; };
+		8F7AECA91D2AB31000D0DAF1 /* FilterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilterTableViewController.swift; path = NamesAndFaces/FilterTableViewController.swift; sourceTree = "<group>"; };
+		8F7AECAA1D2AB31000D0DAF1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NamesAndFaces/Info.plist; sourceTree = "<group>"; };
+		8F7AECAB1D2AB31000D0DAF1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = NamesAndFaces/Main.storyboard; sourceTree = "<group>"; };
+		8F7AECAC1D2AB31000D0DAF1 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = NamesAndFaces/Person.swift; sourceTree = "<group>"; };
+		8F7AECAD1D2AB31000D0DAF1 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = NamesAndFaces/SearchViewController.swift; sourceTree = "<group>"; };
+		8F7AECAE1D2AB31000D0DAF1 /* SecondFakeSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondFakeSearchViewController.swift; path = NamesAndFaces/SecondFakeSearchViewController.swift; sourceTree = "<group>"; };
+		8F7AECAF1D2AB31000D0DAF1 /* SingleViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SingleViewViewController.swift; path = NamesAndFaces/SingleViewViewController.swift; sourceTree = "<group>"; };
+		8F7AECB01D2AB31000D0DAF1 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TermsViewController.swift; path = NamesAndFaces/TermsViewController.swift; sourceTree = "<group>"; };
+		8F7AECB11D2AB31000D0DAF1 /* TitleScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitleScreenViewController.swift; path = NamesAndFaces/TitleScreenViewController.swift; sourceTree = "<group>"; };
+		8F7AECB21D2AB31000D0DAF1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = NamesAndFaces/ViewController.swift; sourceTree = "<group>"; };
+		8F7AECB31D2AB31000D0DAF1 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = NamesAndFaces/Base.lproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,8 +54,22 @@
 		8F7AEC881D2AB2BB00D0DAF1 = {
 			isa = PBXGroup;
 			children = (
+				8F7AECA71D2AB31000D0DAF1 /* AppDelegate.swift */,
+				8F7AECA81D2AB31000D0DAF1 /* Assets.xcassets */,
+				8F7AECA91D2AB31000D0DAF1 /* FilterTableViewController.swift */,
+				8F7AECAA1D2AB31000D0DAF1 /* Info.plist */,
+				8F7AECAB1D2AB31000D0DAF1 /* Main.storyboard */,
+				8F7AECAC1D2AB31000D0DAF1 /* Person.swift */,
+				8F7AECAD1D2AB31000D0DAF1 /* SearchViewController.swift */,
+				8F7AECAE1D2AB31000D0DAF1 /* SecondFakeSearchViewController.swift */,
+				8F7AECAF1D2AB31000D0DAF1 /* SingleViewViewController.swift */,
+				8F7AECB01D2AB31000D0DAF1 /* TermsViewController.swift */,
+				8F7AECB11D2AB31000D0DAF1 /* TitleScreenViewController.swift */,
+				8F7AECB21D2AB31000D0DAF1 /* ViewController.swift */,
+				8F7AECB31D2AB31000D0DAF1 /* Base.lproj */,
 				8F7AEC931D2AB2BB00D0DAF1 /* NamesAndFaces */,
 				8F7AEC921D2AB2BB00D0DAF1 /* Products */,
+				8F7AECA61D2AB31000D0DAF1 /* NamesAndFaces-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +84,6 @@
 		8F7AEC931D2AB2BB00D0DAF1 /* NamesAndFaces */ = {
 			isa = PBXGroup;
 			children = (
-				8F7AEC941D2AB2BB00D0DAF1 /* AppDelegate.swift */,
-				8F7AEC961D2AB2BB00D0DAF1 /* ViewController.swift */,
-				8F7AEC981D2AB2BB00D0DAF1 /* Main.storyboard */,
-				8F7AEC9B1D2AB2BB00D0DAF1 /* Assets.xcassets */,
-				8F7AEC9D1D2AB2BB00D0DAF1 /* LaunchScreen.storyboard */,
-				8F7AECA01D2AB2BB00D0DAF1 /* Info.plist */,
 			);
 			path = NamesAndFaces;
 			sourceTree = "<group>";
@@ -122,9 +146,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F7AEC9F1D2AB2BB00D0DAF1 /* LaunchScreen.storyboard in Resources */,
-				8F7AEC9C1D2AB2BB00D0DAF1 /* Assets.xcassets in Resources */,
-				8F7AEC9A1D2AB2BB00D0DAF1 /* Main.storyboard in Resources */,
+				8F7AECB81D2AB31000D0DAF1 /* Main.storyboard in Resources */,
+				8F7AECB71D2AB31000D0DAF1 /* Info.plist in Resources */,
+				8F7AECC01D2AB31000D0DAF1 /* Base.lproj in Resources */,
+				8F7AECB51D2AB31000D0DAF1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +160,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F7AEC971D2AB2BB00D0DAF1 /* ViewController.swift in Sources */,
-				8F7AEC951D2AB2BB00D0DAF1 /* AppDelegate.swift in Sources */,
+				8F7AECB91D2AB31000D0DAF1 /* Person.swift in Sources */,
+				8F7AECBB1D2AB31000D0DAF1 /* SecondFakeSearchViewController.swift in Sources */,
+				8F7AECB41D2AB31000D0DAF1 /* AppDelegate.swift in Sources */,
+				8F7AECBF1D2AB31000D0DAF1 /* ViewController.swift in Sources */,
+				8F7AECBE1D2AB31000D0DAF1 /* TitleScreenViewController.swift in Sources */,
+				8F7AECBA1D2AB31000D0DAF1 /* SearchViewController.swift in Sources */,
+				8F7AECB61D2AB31000D0DAF1 /* FilterTableViewController.swift in Sources */,
+				8F7AECBC1D2AB31000D0DAF1 /* SingleViewViewController.swift in Sources */,
+				8F7AECBD1D2AB31000D0DAF1 /* TermsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8F7AEC981D2AB2BB00D0DAF1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F7AEC991D2AB2BB00D0DAF1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8F7AEC9D1D2AB2BB00D0DAF1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F7AEC9E1D2AB2BB00D0DAF1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8F7AECA11D2AB2BB00D0DAF1 /* Debug */ = {
@@ -251,10 +264,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NamesAndFaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.hotchkiss.NamesAndFaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NamesAndFaces-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -262,10 +278,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NamesAndFaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.hotchkiss.NamesAndFaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NamesAndFaces-Bridging-Header.h";
 			};
 			name = Release;
 		};
